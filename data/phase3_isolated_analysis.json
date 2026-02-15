@@ -1,0 +1,313 @@
+{
+  "total_isolated": 8863,
+  "avg_difficulty": 0.406744,
+  "median_difficulty": 0.4015,
+  "avg_resource_count": 1.3736,
+  "median_resource_count": 1.0,
+  "top_20_most_frequent": [
+    {
+      "concept": "access",
+      "resource_count": 26,
+      "difficulty": 0.4714
+    },
+    {
+      "concept": "output",
+      "resource_count": 24,
+      "difficulty": 0.4115
+    },
+    {
+      "concept": "data",
+      "resource_count": 22,
+      "difficulty": 0.423
+    },
+    {
+      "concept": "order",
+      "resource_count": 22,
+      "difficulty": 0.4042
+    },
+    {
+      "concept": "\u2019 t",
+      "resource_count": 20,
+      "difficulty": 0.311
+    },
+    {
+      "concept": "none",
+      "resource_count": 19,
+      "difficulty": 0.5212
+    },
+    {
+      "concept": "integers",
+      "resource_count": 18,
+      "difficulty": 0.4136
+    },
+    {
+      "concept": "something",
+      "resource_count": 18,
+      "difficulty": 0.5054
+    },
+    {
+      "concept": "recent call",
+      "resource_count": 16,
+      "difficulty": 0.3534
+    },
+    {
+      "concept": "traceback",
+      "resource_count": 15,
+      "difficulty": 0.3226
+    },
+    {
+      "concept": "true",
+      "resource_count": 15,
+      "difficulty": 0.3471
+    },
+    {
+      "concept": "version",
+      "resource_count": 15,
+      "difficulty": 0.3634
+    },
+    {
+      "concept": "documentation",
+      "resource_count": 14,
+      "difficulty": 0.3065
+    },
+    {
+      "concept": "time",
+      "resource_count": 14,
+      "difficulty": 0.5278
+    },
+    {
+      "concept": "times",
+      "resource_count": 14,
+      "difficulty": 0.5397
+    },
+    {
+      "concept": "pass",
+      "resource_count": 14,
+      "difficulty": 0.3501
+    },
+    {
+      "concept": "a bit",
+      "resource_count": 13,
+      "difficulty": 0.5295
+    },
+    {
+      "concept": "everything",
+      "resource_count": 13,
+      "difficulty": 0.5282
+    },
+    {
+      "concept": "anything",
+      "resource_count": 13,
+      "difficulty": 0.5275
+    },
+    {
+      "concept": "default value",
+      "resource_count": 12,
+      "difficulty": 0.2935
+    }
+  ],
+  "top_20_lowest_difficulty": [
+    {
+      "concept": "default value",
+      "difficulty": 0.2935,
+      "resource_count": 12
+    },
+    {
+      "concept": "documentation",
+      "difficulty": 0.3065,
+      "resource_count": 14
+    },
+    {
+      "concept": "\u2019 t",
+      "difficulty": 0.311,
+      "resource_count": 20
+    },
+    {
+      "concept": "traceback",
+      "difficulty": 0.3226,
+      "resource_count": 15
+    },
+    {
+      "concept": "interpreter",
+      "difficulty": 0.3251,
+      "resource_count": 10
+    },
+    {
+      "concept": "information",
+      "difficulty": 0.335,
+      "resource_count": 12
+    },
+    {
+      "concept": "dictionary keys",
+      "difficulty": 0.3402,
+      "resource_count": 9
+    },
+    {
+      "concept": "things",
+      "difficulty": 0.3404,
+      "resource_count": 11
+    },
+    {
+      "concept": "the use",
+      "difficulty": 0.3443,
+      "resource_count": 11
+    },
+    {
+      "concept": "system",
+      "difficulty": 0.3447,
+      "resource_count": 9
+    },
+    {
+      "concept": "purposes",
+      "difficulty": 0.3452,
+      "resource_count": 10
+    },
+    {
+      "concept": "this way",
+      "difficulty": 0.3465,
+      "resource_count": 11
+    },
+    {
+      "concept": "true",
+      "difficulty": 0.3471,
+      "resource_count": 15
+    },
+    {
+      "concept": "pass",
+      "difficulty": 0.3501,
+      "resource_count": 14
+    },
+    {
+      "concept": "repetition",
+      "difficulty": 0.3503,
+      "resource_count": 4
+    },
+    {
+      "concept": "execution",
+      "difficulty": 0.3521,
+      "resource_count": 7
+    },
+    {
+      "concept": "pep",
+      "difficulty": 0.353,
+      "resource_count": 12
+    },
+    {
+      "concept": "recent call",
+      "difficulty": 0.3534,
+      "resource_count": 16
+    },
+    {
+      "concept": "return true",
+      "difficulty": 0.3539,
+      "resource_count": 7
+    },
+    {
+      "concept": "clause",
+      "difficulty": 0.3543,
+      "resource_count": 6
+    }
+  ],
+  "top_20_highest_difficulty": [
+    {
+      "concept": "this channel",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "type age note",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "updated list beautiful",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "this underline",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "the toolbar",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "underline year",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "the burst year",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "the builtin lend function",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "john bob marsh sam",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "this message range",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "tv",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "the stir function",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "guarantee",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "i i",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "sensitive language",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "print age",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "resume",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "water",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "fact python",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    },
+    {
+      "concept": "the builtin stir function let",
+      "difficulty": 0.9143,
+      "resource_count": 1
+    }
+  ]
+}

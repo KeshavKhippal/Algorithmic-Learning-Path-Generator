@@ -1,0 +1,14 @@
+{
+  "total_neighbor_pairs_examined": 182994,
+  "total_passing_similarity_filter": 150717,
+  "total_passing_difficulty_rule": 67100,
+  "total_passing_confidence": 4052,
+  "final_edges_after_max_out": 4001,
+  "rejection_breakdown": {
+    "self_loop": 13071,
+    "similarity_below_min": 32277,
+    "difficulty_wrong_direction": 83617,
+    "confidence_below_threshold": 63048,
+    "max_out_pruned": 51
+  }
+}

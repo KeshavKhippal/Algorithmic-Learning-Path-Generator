@@ -1,0 +1,129 @@
+{
+  "timestamp": "2026-02-14T09:37:34.944861+00:00",
+  "baseline_metrics": {
+    "total_concepts": 13071,
+    "total_edges": 4001,
+    "avg_out_degree": 0.9508,
+    "max_depth": 9,
+    "isolated_nodes_count": 8863,
+    "is_dag": true,
+    "removed_edges": 0,
+    "config": {
+      "name": "baseline",
+      "top_k": 15,
+      "max_out": 8,
+      "sim_min": 0.5,
+      "conf_threshold": 0.55,
+      "w_sim": 0.6,
+      "w_gap": 0.3,
+      "w_cooc": 0.1,
+      "use_smoothed_difficulty": false
+    }
+  },
+  "candidate_configs": [
+    {
+      "total_concepts": 13071,
+      "total_edges": 4001,
+      "avg_out_degree": 0.9508,
+      "max_depth": 9,
+      "isolated_nodes_count": 8863,
+      "is_dag": true,
+      "removed_edges": 0,
+      "config": {
+        "name": "baseline",
+        "top_k": 15,
+        "max_out": 8,
+        "sim_min": 0.5,
+        "conf_threshold": 0.55,
+        "w_sim": 0.6,
+        "w_gap": 0.3,
+        "w_cooc": 0.1,
+        "use_smoothed_difficulty": false
+      }
+    },
+    {
+      "total_concepts": 13071,
+      "total_edges": 39510,
+      "avg_out_degree": 3.2729,
+      "max_depth": 32,
+      "isolated_nodes_count": 999,
+      "is_dag": true,
+      "removed_edges": 0,
+      "config": {
+        "name": "balanced",
+        "top_k": 15,
+        "max_out": 8,
+        "sim_min": 0.45,
+        "conf_threshold": 0.45,
+        "w_sim": 0.7,
+        "w_gap": 0.2,
+        "w_cooc": 0.1,
+        "use_smoothed_difficulty": true
+      }
+    },
+    {
+      "total_concepts": 13071,
+      "total_edges": 58828,
+      "avg_out_degree": 4.6435,
+      "max_depth": 48,
+      "isolated_nodes_count": 402,
+      "is_dag": true,
+      "removed_edges": 0,
+      "config": {
+        "name": "high_recall",
+        "top_k": 15,
+        "max_out": 12,
+        "sim_min": 0.4,
+        "conf_threshold": 0.4,
+        "w_sim": 0.7,
+        "w_gap": 0.2,
+        "w_cooc": 0.1,
+        "use_smoothed_difficulty": true
+      }
+    }
+  ],
+  "recommended_config": {
+    "name": "balanced",
+    "top_k": 15,
+    "max_out": 8,
+    "sim_min": 0.45,
+    "conf_threshold": 0.45,
+    "w_sim": 0.7,
+    "w_gap": 0.2,
+    "w_cooc": 0.1,
+    "use_smoothed_difficulty": true
+  },
+  "recommended_config_path": "./data/phase3_calibration/best_config.json",
+  "reasoning": "The 'balanced' config reduces isolated nodes significantly by: (1) using smoothed+authority-adjusted difficulty for better gap discrimination, (2) reweighting confidence to 0.70\u00b7sim + 0.20\u00b7gap + 0.10\u00b7cooc (similarity-dominant), (3) lowering sim_min to 0.45 and conf_threshold to 0.45. This retains semantic quality while dramatically improving graph connectivity.",
+  "difficulty_comparison": {
+    "original": {
+      "mean": 0.4165,
+      "std": 0.0808,
+      "min": 0.2408,
+      "max": 0.9143
+    },
+    "smoothed": {
+      "mean": 0.4166,
+      "std": 0.0466,
+      "min": 0.3169,
+      "max": 0.817
+    },
+    "authority_adjusted": {
+      "mean": 0.4123,
+      "std": 0.0466,
+      "min": 0.2776,
+      "max": 0.817
+    }
+  },
+  "percentile_thresholds": {
+    "p50": 0.4662,
+    "p60": 0.49,
+    "p70": 0.517,
+    "p75": 0.5318,
+    "p80": 0.5479,
+    "p90": 0.5888,
+    "mean": 0.4716,
+    "total_valid_pairs": 76762
+  },
+  "rollback": "To rollback: DELETE FROM ConceptEdges; then re-run python -m src.graph_builder --db ./data/resources.db with original settings."
+}

@@ -1,0 +1,38 @@
+video_id: lh9WjhpZ6uE
+timestamp: 20260214T080416Z
+exception_type: VideoUnavailable
+exception_msg: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=lh9WjhpZ6uE! This is most likely caused by:
+
+The video is no longer available
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+
+Traceback (most recent call last):
+  File "/home/kk/Projects/SAH/src/fetchers/youtube_fetcher.py", line 175, in fetch_transcript
+    text = _raw_fetch(video_id)
+  File "/home/kk/Projects/SAH/src/fetchers/youtube_fetcher.py", line 134, in _raw_fetch
+    result = _api.fetch(video_id)
+  File "/home/kk/Projects/SAH/venv/lib/python3.14/site-packages/youtube_transcript_api/_api.py", line 71, in fetch
+    self.list(video_id)
+    ~~~~~~~~~^^^^^^^^^^
+  File "/home/kk/Projects/SAH/venv/lib/python3.14/site-packages/youtube_transcript_api/_api.py", line 127, in list
+    return self._fetcher.fetch(video_id)
+           ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/kk/Projects/SAH/venv/lib/python3.14/site-packages/youtube_transcript_api/_transcripts.py", line 356, in fetch
+    self._fetch_captions_json(video_id),
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "/home/kk/Projects/SAH/venv/lib/python3.14/site-packages/youtube_transcript_api/_transcripts.py", line 364, in _fetch_captions_json
+    return self._extract_captions_json(innertube_data, video_id)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kk/Projects/SAH/venv/lib/python3.14/site-packages/youtube_transcript_api/_transcripts.py", line 385, in _extract_captions_json
+    self._assert_playability(innertube_data.get("playabilityStatus"), video_id)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kk/Projects/SAH/venv/lib/python3.14/site-packages/youtube_transcript_api/_transcripts.py", line 413, in _assert_playability
+    raise VideoUnavailable(video_id)
+youtube_transcript_api._errors.VideoUnavailable: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=lh9WjhpZ6uE! This is most likely caused by:
+
+The video is no longer available
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!

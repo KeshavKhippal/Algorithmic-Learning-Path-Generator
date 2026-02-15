@@ -1,0 +1,9 @@
+{
+  "total_concepts": 13071,
+  "total_edges": 39510,
+  "avg_out_degree": 3.2729,
+  "max_depth": 32,
+  "isolated_nodes_count": 999,
+  "is_dag": true,
+  "removed_edges": 0
+}

@@ -1,0 +1,58 @@
+[
+    {
+        "id": 1,
+        "canonical_concept": "python",
+        "difficulty_score": 0.15,
+        "resource_count": 10,
+        "embedding_seed": 100
+    },
+    {
+        "id": 2,
+        "canonical_concept": "variables",
+        "difficulty_score": 0.20,
+        "resource_count": 8,
+        "embedding_seed": 101
+    },
+    {
+        "id": 3,
+        "canonical_concept": "functions",
+        "difficulty_score": 0.30,
+        "resource_count": 9,
+        "embedding_seed": 102
+    },
+    {
+        "id": 4,
+        "canonical_concept": "object oriented programming",
+        "difficulty_score": 0.50,
+        "resource_count": 6,
+        "embedding_seed": 103
+    },
+    {
+        "id": 5,
+        "canonical_concept": "decorators",
+        "difficulty_score": 0.65,
+        "resource_count": 3,
+        "embedding_seed": 104
+    },
+    {
+        "id": 6,
+        "canonical_concept": "metaclasses",
+        "difficulty_score": 0.85,
+        "resource_count": 1,
+        "embedding_seed": 105
+    },
+    {
+        "id": 7,
+        "canonical_concept": "machine learning",
+        "difficulty_score": 0.55,
+        "resource_count": 7,
+        "embedding_seed": 200
+    },
+    {
+        "id": 8,
+        "canonical_concept": "neural networks",
+        "difficulty_score": 0.70,
+        "resource_count": 4,
+        "embedding_seed": 201
+    }
+]

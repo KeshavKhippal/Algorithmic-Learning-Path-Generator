@@ -1,0 +1,277 @@
+{
+  "in_degree_distribution": {
+    "0": 1929,
+    "1": 1530,
+    "2": 390,
+    "3": 159,
+    "4": 72,
+    "5": 46,
+    "6": 27,
+    "7": 12,
+    "8": 16,
+    "9": 1,
+    "10": 10,
+    "11": 6,
+    "12": 4,
+    "13": 1,
+    "14": 1,
+    "16": 2,
+    "17": 1,
+    "23": 1
+  },
+  "out_degree_distribution": {
+    "0": 1682,
+    "1": 1740,
+    "2": 451,
+    "3": 180,
+    "4": 68,
+    "5": 35,
+    "6": 17,
+    "7": 10,
+    "8": 25
+  },
+  "top_20_by_in_degree": [
+    {
+      "concept_id": 43,
+      "concept": "many python",
+      "in_degree": 23,
+      "difficulty": 0.6704
+    },
+    {
+      "concept_id": 146,
+      "concept": "python tuples",
+      "in_degree": 17,
+      "difficulty": 0.7365
+    },
+    {
+      "concept_id": 11734,
+      "concept": "a separate variable",
+      "in_degree": 16,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 677,
+      "concept": "another method",
+      "in_degree": 16,
+      "difficulty": 0.6823
+    },
+    {
+      "concept_id": 1453,
+      "concept": "python programs",
+      "in_degree": 14,
+      "difficulty": 0.6339
+    },
+    {
+      "concept_id": 2471,
+      "concept": "a particular index",
+      "in_degree": 13,
+      "difficulty": 0.7336
+    },
+    {
+      "concept_id": 12694,
+      "concept": "csssoup beautifulsoup",
+      "in_degree": 12,
+      "difficulty": 0.4177
+    },
+    {
+      "concept_id": 4827,
+      "concept": "this package",
+      "in_degree": 12,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 3498,
+      "concept": "write code",
+      "in_degree": 12,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 4329,
+      "concept": "type float",
+      "in_degree": 12,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 6400,
+      "concept": "ms fstring",
+      "in_degree": 11,
+      "difficulty": 0.4036
+    },
+    {
+      "concept_id": 999,
+      "concept": "some examples",
+      "in_degree": 11,
+      "difficulty": 0.5495
+    },
+    {
+      "concept_id": 3059,
+      "concept": "this path",
+      "in_degree": 11,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 8249,
+      "concept": "the subsequent characters",
+      "in_degree": 11,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 12599,
+      "concept": "a real application",
+      "in_degree": 11,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 3653,
+      "concept": "this single code",
+      "in_degree": 11,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 2803,
+      "concept": "learn python",
+      "in_degree": 10,
+      "difficulty": 0.7334
+    },
+    {
+      "concept_id": 547,
+      "concept": "different beautiful soup",
+      "in_degree": 10,
+      "difficulty": 0.4052
+    },
+    {
+      "concept_id": 7982,
+      "concept": "the project name",
+      "in_degree": 10,
+      "difficulty": 0.9143
+    },
+    {
+      "concept_id": 3010,
+      "concept": "virtual environment structure",
+      "in_degree": 10,
+      "difficulty": 0.403
+    }
+  ],
+  "top_20_by_out_degree": [
+    {
+      "concept_id": 5,
+      "concept": "the fstring works",
+      "out_degree": 8,
+      "difficulty": 0.3911
+    },
+    {
+      "concept_id": 743,
+      "concept": "fstrings support",
+      "out_degree": 8,
+      "difficulty": 0.3956
+    },
+    {
+      "concept_id": 2626,
+      "concept": "fstring fails",
+      "out_degree": 8,
+      "difficulty": 0.3913
+    },
+    {
+      "concept_id": 46,
+      "concept": "the beautiful soup repository",
+      "out_degree": 8,
+      "difficulty": 0.398
+    },
+    {
+      "concept_id": 79,
+      "concept": "fstrings",
+      "out_degree": 8,
+      "difficulty": 0.3449
+    },
+    {
+      "concept_id": 1034,
+      "concept": "fstring expressions",
+      "out_degree": 8,
+      "difficulty": 0.3896
+    },
+    {
+      "concept_id": 964,
+      "concept": "multiple virtual environments",
+      "out_degree": 8,
+      "difficulty": 0.375
+    },
+    {
+      "concept_id": 1283,
+      "concept": "different parsers",
+      "out_degree": 8,
+      "difficulty": 0.3905
+    },
+    {
+      "concept_id": 1101,
+      "concept": "the parser library",
+      "out_degree": 8,
+      "difficulty": 0.3859
+    },
+    {
+      "concept_id": 225,
+      "concept": "soup",
+      "out_degree": 8,
+      "difficulty": 0.3943
+    },
+    {
+      "concept_id": 241,
+      "concept": "python \u2019",
+      "out_degree": 8,
+      "difficulty": 0.2526
+    },
+    {
+      "concept_id": 267,
+      "concept": "torchdistributedoptim",
+      "out_degree": 8,
+      "difficulty": 0.4281
+    },
+    {
+      "concept_id": 369,
+      "concept": "beautifulsoup",
+      "out_degree": 8,
+      "difficulty": 0.3934
+    },
+    {
+      "concept_id": 11080,
+      "concept": "the beautifulsoup package",
+      "out_degree": 8,
+      "difficulty": 0.4008
+    },
+    {
+      "concept_id": 377,
+      "concept": "beautiful soup",
+      "out_degree": 8,
+      "difficulty": 0.372
+    },
+    {
+      "concept_id": 456,
+      "concept": "python lambda",
+      "out_degree": 8,
+      "difficulty": 0.3603
+    },
+    {
+      "concept_id": 602,
+      "concept": "torchfunc",
+      "out_degree": 8,
+      "difficulty": 0.4281
+    },
+    {
+      "concept_id": 752,
+      "concept": "that virtual environment",
+      "out_degree": 8,
+      "difficulty": 0.396
+    },
+    {
+      "concept_id": 3065,
+      "concept": "the beautiful soup documentation",
+      "out_degree": 8,
+      "difficulty": 0.3959
+    },
+    {
+      "concept_id": 1118,
+      "concept": "class",
+      "out_degree": 8,
+      "difficulty": 0.2416
+    }
+  ]
+}

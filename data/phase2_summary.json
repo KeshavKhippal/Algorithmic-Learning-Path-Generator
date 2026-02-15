@@ -1,0 +1,11 @@
+{
+  "resources_processed": 42,
+  "candidate_concepts": 25232,
+  "canonical_concepts": 13071,
+  "avg_concepts_per_resource": 600.76,
+  "difficulty_distribution": {
+    "beginner": 40,
+    "intermediate": 12645,
+    "advanced": 386
+  }
+}

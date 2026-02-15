@@ -1,0 +1,11 @@
+{
+  "name": "balanced",
+  "top_k": 15,
+  "max_out": 8,
+  "sim_min": 0.45,
+  "conf_threshold": 0.45,
+  "w_sim": 0.7,
+  "w_gap": 0.2,
+  "w_cooc": 0.1,
+  "use_smoothed_difficulty": true
+}

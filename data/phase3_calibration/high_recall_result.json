@@ -1,0 +1,622 @@
+{
+  "total_concepts": 13071,
+  "total_edges": 58828,
+  "avg_out_degree": 4.6435,
+  "max_depth": 48,
+  "isolated_nodes_count": 402,
+  "is_dag": true,
+  "removed_edges": 0,
+  "config": {
+    "name": "high_recall",
+    "top_k": 15,
+    "max_out": 12,
+    "sim_min": 0.4,
+    "conf_threshold": 0.4,
+    "w_sim": 0.7,
+    "w_gap": 0.2,
+    "w_cooc": 0.1,
+    "use_smoothed_difficulty": true
+  },
+  "sample_top_100_edges": [
+    {
+      "source_id": 218,
+      "target_id": 1618,
+      "similarity": 0.919108,
+      "confidence": 0.743896
+    },
+    {
+      "source_id": 1611,
+      "target_id": 509,
+      "similarity": 0.914151,
+      "confidence": 0.74054
+    },
+    {
+      "source_id": 377,
+      "target_id": 547,
+      "similarity": 0.902259,
+      "confidence": 0.734635
+    },
+    {
+      "source_id": 1619,
+      "target_id": 297,
+      "similarity": 0.891222,
+      "confidence": 0.725692
+    },
+    {
+      "source_id": 964,
+      "target_id": 13030,
+      "similarity": 0.889357,
+      "confidence": 0.725057
+    },
+    {
+      "source_id": 1867,
+      "target_id": 3220,
+      "similarity": 0.890581,
+      "confidence": 0.724025
+    },
+    {
+      "source_id": 3209,
+      "target_id": 2547,
+      "similarity": 0.890057,
+      "confidence": 0.723528
+    },
+    {
+      "source_id": 2506,
+      "target_id": 1345,
+      "similarity": 0.888514,
+      "confidence": 0.722027
+    },
+    {
+      "source_id": 1085,
+      "target_id": 13001,
+      "similarity": 0.880666,
+      "confidence": 0.721179
+    },
+    {
+      "source_id": 1539,
+      "target_id": 259,
+      "similarity": 0.886638,
+      "confidence": 0.721155
+    },
+    {
+      "source_id": 287,
+      "target_id": 6350,
+      "similarity": 0.881181,
+      "confidence": 0.719881
+    },
+    {
+      "source_id": 241,
+      "target_id": 1330,
+      "similarity": 0.944895,
+      "confidence": 0.719308
+    },
+    {
+      "source_id": 1323,
+      "target_id": 6521,
+      "similarity": 0.879482,
+      "confidence": 0.719089
+    },
+    {
+      "source_id": 1064,
+      "target_id": 6442,
+      "similarity": 0.880489,
+      "confidence": 0.718181
+    },
+    {
+      "source_id": 390,
+      "target_id": 805,
+      "similarity": 0.937298,
+      "confidence": 0.717225
+    },
+    {
+      "source_id": 569,
+      "target_id": 6239,
+      "similarity": 0.880421,
+      "confidence": 0.71715
+    },
+    {
+      "source_id": 3159,
+      "target_id": 972,
+      "similarity": 0.879812,
+      "confidence": 0.71683
+    },
+    {
+      "source_id": 1236,
+      "target_id": 3210,
+      "similarity": 0.88,
+      "confidence": 0.716404
+    },
+    {
+      "source_id": 109,
+      "target_id": 154,
+      "similarity": 0.879167,
+      "confidence": 0.715803
+    },
+    {
+      "source_id": 1302,
+      "target_id": 12968,
+      "similarity": 0.878392,
+      "confidence": 0.715752
+    },
+    {
+      "source_id": 905,
+      "target_id": 46,
+      "similarity": 0.878128,
+      "confidence": 0.715379
+    },
+    {
+      "source_id": 743,
+      "target_id": 165,
+      "similarity": 0.878161,
+      "confidence": 0.714833
+    },
+    {
+      "source_id": 6107,
+      "target_id": 937,
+      "similarity": 0.874812,
+      "confidence": 0.71377
+    },
+    {
+      "source_id": 287,
+      "target_id": 12243,
+      "similarity": 0.871683,
+      "confidence": 0.713466
+    },
+    {
+      "source_id": 1283,
+      "target_id": 12849,
+      "similarity": 0.875137,
+      "confidence": 0.713451
+    },
+    {
+      "source_id": 777,
+      "target_id": 1194,
+      "similarity": 0.924882,
+      "confidence": 0.713414
+    },
+    {
+      "source_id": 1084,
+      "target_id": 812,
+      "similarity": 0.87579,
+      "confidence": 0.713093
+    },
+    {
+      "source_id": 3151,
+      "target_id": 1930,
+      "similarity": 0.924988,
+      "confidence": 0.713073
+    },
+    {
+      "source_id": 3107,
+      "target_id": 1319,
+      "similarity": 0.874094,
+      "confidence": 0.712808
+    },
+    {
+      "source_id": 1100,
+      "target_id": 3202,
+      "similarity": 0.898174,
+      "confidence": 0.712186
+    },
+    {
+      "source_id": 377,
+      "target_id": 225,
+      "similarity": 0.870368,
+      "confidence": 0.711601
+    },
+    {
+      "source_id": 2486,
+      "target_id": 3228,
+      "similarity": 0.868065,
+      "confidence": 0.711324
+    },
+    {
+      "source_id": 12722,
+      "target_id": 160,
+      "similarity": 0.872094,
+      "confidence": 0.711264
+    },
+    {
+      "source_id": 1184,
+      "target_id": 3133,
+      "similarity": 0.871374,
+      "confidence": 0.710405
+    },
+    {
+      "source_id": 1477,
+      "target_id": 2285,
+      "similarity": 0.871565,
+      "confidence": 0.710375
+    },
+    {
+      "source_id": 604,
+      "target_id": 12549,
+      "similarity": 0.869444,
+      "confidence": 0.710362
+    },
+    {
+      "source_id": 3647,
+      "target_id": 1549,
+      "similarity": 0.869336,
+      "confidence": 0.710312
+    },
+    {
+      "source_id": 175,
+      "target_id": 376,
+      "similarity": 0.901288,
+      "confidence": 0.710012
+    },
+    {
+      "source_id": 2091,
+      "target_id": 12699,
+      "similarity": 0.868415,
+      "confidence": 0.709846
+    },
+    {
+      "source_id": 12717,
+      "target_id": 2178,
+      "similarity": 0.867329,
+      "confidence": 0.709798
+    },
+    {
+      "source_id": 1007,
+      "target_id": 2896,
+      "similarity": 0.869795,
+      "confidence": 0.709613
+    },
+    {
+      "source_id": 2280,
+      "target_id": 12747,
+      "similarity": 0.868337,
+      "confidence": 0.709517
+    },
+    {
+      "source_id": 535,
+      "target_id": 6402,
+      "similarity": 0.869784,
+      "confidence": 0.709339
+    },
+    {
+      "source_id": 2813,
+      "target_id": 12823,
+      "similarity": 0.870044,
+      "confidence": 0.709244
+    },
+    {
+      "source_id": 1383,
+      "target_id": 12647,
+      "similarity": 0.869366,
+      "confidence": 0.709174
+    },
+    {
+      "source_id": 225,
+      "target_id": 3014,
+      "similarity": 0.869057,
+      "confidence": 0.708947
+    },
+    {
+      "source_id": 1009,
+      "target_id": 3243,
+      "similarity": 0.897668,
+      "confidence": 0.708946
+    },
+    {
+      "source_id": 2976,
+      "target_id": 11111,
+      "similarity": 0.868275,
+      "confidence": 0.708903
+    },
+    {
+      "source_id": 3156,
+      "target_id": 1296,
+      "similarity": 0.862284,
+      "confidence": 0.708768
+    },
+    {
+      "source_id": 952,
+      "target_id": 6267,
+      "similarity": 0.869434,
+      "confidence": 0.708751
+    },
+    {
+      "source_id": 2804,
+      "target_id": 3169,
+      "similarity": 0.866734,
+      "confidence": 0.708537
+    },
+    {
+      "source_id": 4369,
+      "target_id": 6403,
+      "similarity": 0.868422,
+      "confidence": 0.708399
+    },
+    {
+      "source_id": 157,
+      "target_id": 1869,
+      "similarity": 0.883185,
+      "confidence": 0.708036
+    },
+    {
+      "source_id": 355,
+      "target_id": 12453,
+      "similarity": 0.865215,
+      "confidence": 0.707832
+    },
+    {
+      "source_id": 12687,
+      "target_id": 547,
+      "similarity": 0.86735,
+      "confidence": 0.707699
+    },
+    {
+      "source_id": 543,
+      "target_id": 12739,
+      "similarity": 0.867343,
+      "confidence": 0.707692
+    },
+    {
+      "source_id": 260,
+      "target_id": 4568,
+      "similarity": 0.89836,
+      "confidence": 0.707492
+    },
+    {
+      "source_id": 1101,
+      "target_id": 12339,
+      "similarity": 0.865661,
+      "confidence": 0.707465
+    },
+    {
+      "source_id": 614,
+      "target_id": 2051,
+      "similarity": 0.866091,
+      "confidence": 0.706935
+    },
+    {
+      "source_id": 1445,
+      "target_id": 12321,
+      "similarity": 0.864291,
+      "confidence": 0.706714
+    },
+    {
+      "source_id": 1790,
+      "target_id": 12783,
+      "similarity": 0.865781,
+      "confidence": 0.706676
+    },
+    {
+      "source_id": 905,
+      "target_id": 3065,
+      "similarity": 0.865669,
+      "confidence": 0.706549
+    },
+    {
+      "source_id": 3011,
+      "target_id": 450,
+      "similarity": 0.866471,
+      "confidence": 0.706535
+    },
+    {
+      "source_id": 1506,
+      "target_id": 12946,
+      "similarity": 0.865981,
+      "confidence": 0.706249
+    },
+    {
+      "source_id": 109,
+      "target_id": 5527,
+      "similarity": 0.8643,
+      "confidence": 0.706143
+    },
+    {
+      "source_id": 3070,
+      "target_id": 13019,
+      "similarity": 0.864855,
+      "confidence": 0.705992
+    },
+    {
+      "source_id": 727,
+      "target_id": 1240,
+      "similarity": 0.865436,
+      "confidence": 0.705968
+    },
+    {
+      "source_id": 1718,
+      "target_id": 12966,
+      "similarity": 0.863368,
+      "confidence": 0.705547
+    },
+    {
+      "source_id": 1490,
+      "target_id": 12199,
+      "similarity": 0.864473,
+      "confidence": 0.705478
+    },
+    {
+      "source_id": 3444,
+      "target_id": 12660,
+      "similarity": 0.859234,
+      "confidence": 0.705462
+    },
+    {
+      "source_id": 713,
+      "target_id": 12811,
+      "similarity": 0.863466,
+      "confidence": 0.705376
+    },
+    {
+      "source_id": 6256,
+      "target_id": 2713,
+      "similarity": 0.86098,
+      "confidence": 0.704918
+    },
+    {
+      "source_id": 5811,
+      "target_id": 3233,
+      "similarity": 0.858122,
+      "confidence": 0.704901
+    },
+    {
+      "source_id": 72,
+      "target_id": 1410,
+      "similarity": 0.862962,
+      "confidence": 0.704729
+    },
+    {
+      "source_id": 2804,
+      "target_id": 5962,
+      "similarity": 0.860833,
+      "confidence": 0.704143
+    },
+    {
+      "source_id": 2723,
+      "target_id": 12888,
+      "similarity": 0.862651,
+      "confidence": 0.704141
+    },
+    {
+      "source_id": 292,
+      "target_id": 12073,
+      "similarity": 0.860353,
+      "confidence": 0.703986
+    },
+    {
+      "source_id": 909,
+      "target_id": 6338,
+      "similarity": 0.86012,
+      "confidence": 0.703937
+    },
+    {
+      "source_id": 1051,
+      "target_id": 6126,
+      "similarity": 0.86081,
+      "confidence": 0.70364
+    },
+    {
+      "source_id": 2804,
+      "target_id": 169,
+      "similarity": 0.860476,
+      "confidence": 0.703383
+    },
+    {
+      "source_id": 1034,
+      "target_id": 12380,
+      "similarity": 0.860352,
+      "confidence": 0.703333
+    },
+    {
+      "source_id": 89,
+      "target_id": 1563,
+      "similarity": 0.861002,
+      "confidence": 0.703254
+    },
+    {
+      "source_id": 377,
+      "target_id": 11253,
+      "similarity": 0.857884,
+      "confidence": 0.703202
+    },
+    {
+      "source_id": 3065,
+      "target_id": 46,
+      "similarity": 0.860921,
+      "confidence": 0.702754
+    },
+    {
+      "source_id": 12289,
+      "target_id": 1133,
+      "similarity": 0.852249,
+      "confidence": 0.702744
+    },
+    {
+      "source_id": 672,
+      "target_id": 2900,
+      "similarity": 0.855747,
+      "confidence": 0.702607
+    },
+    {
+      "source_id": 984,
+      "target_id": 3241,
+      "similarity": 0.85918,
+      "confidence": 0.702513
+    },
+    {
+      "source_id": 2723,
+      "target_id": 3073,
+      "similarity": 0.859567,
+      "confidence": 0.702437
+    },
+    {
+      "source_id": 6319,
+      "target_id": 1764,
+      "similarity": 0.85819,
+      "confidence": 0.702412
+    },
+    {
+      "source_id": 171,
+      "target_id": 999,
+      "similarity": 0.904761,
+      "confidence": 0.702279
+    },
+    {
+      "source_id": 1618,
+      "target_id": 11665,
+      "similarity": 0.859515,
+      "confidence": 0.702192
+    },
+    {
+      "source_id": 377,
+      "target_id": 12687,
+      "similarity": 0.85654,
+      "confidence": 0.702077
+    },
+    {
+      "source_id": 2203,
+      "target_id": 6334,
+      "similarity": 0.859478,
+      "confidence": 0.702035
+    },
+    {
+      "source_id": 1307,
+      "target_id": 174,
+      "similarity": 0.907614,
+      "confidence": 0.701997
+    },
+    {
+      "source_id": 573,
+      "target_id": 1510,
+      "similarity": 0.931028,
+      "confidence": 0.701982
+    },
+    {
+      "source_id": 1534,
+      "target_id": 12729,
+      "similarity": 0.858474,
+      "confidence": 0.701912
+    },
+    {
+      "source_id": 4594,
+      "target_id": 6081,
+      "similarity": 0.825334,
+      "confidence": 0.701805
+    },
+    {
+      "source_id": 2385,
+      "target_id": 11849,
+      "similarity": 0.858623,
+      "confidence": 0.70174
+    },
+    {
+      "source_id": 1433,
+      "target_id": 12525,
+      "similarity": 0.858438,
+      "confidence": 0.701443
+    },
+    {
+      "source_id": 539,
+      "target_id": 6044,
+      "similarity": 0.858056,
+      "confidence": 0.70134
+    }
+  ]
+}

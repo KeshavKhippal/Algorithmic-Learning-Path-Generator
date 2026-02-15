@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "url": "https://example.com/python-basics",
+        "content_type": "article",
+        "title": "Python Basics",
+        "raw_text": "Python is a popular programming language. It supports object-oriented programming and functional programming. Variables in Python are dynamically typed. Python uses indentation for code blocks. List comprehensions provide a concise way to create lists.",
+        "status": "ok"
+    },
+    {
+        "id": 2,
+        "url": "https://example.com/machine-learning-intro",
+        "content_type": "article",
+        "title": "Machine Learning Introduction",
+        "raw_text": "Machine learning is a subset of artificial intelligence. Supervised learning uses labeled data to train models. Neural networks are inspired by biological neurons. Deep learning uses multiple layers in neural networks. Python is widely used for machine learning.",
+        "status": "ok"
+    },
+    {
+        "id": 3,
+        "url": "https://www.youtube.com/watch?v=test12345ab",
+        "content_type": "youtube",
+        "title": "React.js Tutorial",
+        "raw_text": "ReactJS is a JavaScript library for building user interfaces. React components use a virtual DOM for efficient rendering. JSX allows writing HTML-like syntax in JavaScript. React hooks provide state management in functional components. ReactJS and React.js refer to the same library.",
+        "status": "ok"
+    }
+]
