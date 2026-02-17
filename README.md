@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎓 Algorithmic Learning Path Generator
+# 🎓 SkillRoute
 
 **An intelligent system for automated learning path construction**
 
@@ -16,7 +16,7 @@
 
 ## 📖 Overview
 
-The **Algorithmic Learning Path Generator** is a zero-label inference system that automatically constructs prerequisite learning paths from educational content. It processes web articles and YouTube videos to extract learning concepts, canonicalizes them through semantic clustering, and builds a directed acyclic graph (DAG) representing concept dependencies.
+The **SkillRoute** is a zero-label inference system that automatically constructs prerequisite learning paths from educational content. It processes web articles and YouTube videos to extract learning concepts, canonicalizes them through semantic clustering, and builds a directed acyclic graph (DAG) representing concept dependencies.
 
 ### 🎯 Use Cases
 
